@@ -1,0 +1,205 @@
+{
+    "carta_dulce": [
+      {
+        "nombre": "Brownie con helado",
+        "descripcion": "Yogurt griego, cereza, salsa de la casa, brownie ",
+        "precio": "$15.000 ",
+        "imagen": "brownie.jpeg"
+      },
+      {
+        "nombre": "Partfait",
+        "descripcion": "Yogurt griego, manzana, cereal, mermelada de mora, fresas, masmelo y galleta oreo",
+        "precio": "$18.000 ",
+        "imagen": ""
+      },
+      {
+        "nombre": "Salpi helado",
+        "descripcion": "A base de frutas, una bola de helado, torta de mora y salsas a la elección (fresa. lulo y mora)",
+        "precio": "$17.000",
+        "imagen": "copa_citrica.jpg"
+      },
+      {
+        "nombre": "Ensalada de frutas",
+        "descripcion": "Fresas, cerezas, papaya, kiwi, manzana, mango, uvas, piña, crema de leche, bola de helado, topins y salsas (Chocolate, maracuyá, mora, lulo y fresa)",
+        "precio": "$18.000",
+        "imagen": "ensalada-frutas.jpg"
+      },
+      {
+        "nombre": "Banana Split",
+        "descripcion": "banano con helado, salsa, chispitas y queso",
+        "precio": "$15.000",
+        "imagen": "banana.jpg"
+      },
+      {
+        "nombre": "Creps de banano",
+        "descripcion": "Combinacion de banano con nutelle, queso, oreo y salsa de chocolate opcional",
+        "precio": "$12.000",
+        "imagen": "crepe_banano.jpeg"
+      },
+      {
+        "nombre": "Creps tropical",
+        "descripcion": "mango, kiwi y lechera, con salsas al gusto (maracuyá o lulo)",
+        "precio": "$12.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Creps frutos rojos",
+        "descripcion": "cerezas, fresas y uvas, con salsa al gusto (maracuyá, mora y fresa)",
+        "precio": "$12.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Estrella especial",
+        "descripcion": "una bola de helado con sabor para elegir, fresas, cereza, salsa de mora y chocolate, barqillo y toping que desee",
+        "precio": "$11.000",
+        "imagen": "estrellla_especial.jpeg"
+      },
+      {
+        "nombre": "Estrella doble crema",
+        "descripcion": "Dos bola de helado con sabor para elegir, fresas, cereza, salsa de mora y chocolate, barqillo y toping que desee",
+        "precio": "$15.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Waffle sencillo",
+        "descripcion": "waffle, fresas, uva, banano, crema chantilly, salsa de mora y chocolate",
+        "precio": "$10.000",
+        "imagen": "wafle-sencillo.jpeg"
+      },
+      {
+        "nombre": "Waffle especial",
+        "descripcion": "waffle, fresas, uva, banano, salsa de mora y chocolate, crema chantilly especial de la casa y una bola de helado con sabor a gusto",
+        "precio": "$14.000",
+        "imagen": "wafle-especial.jpeg"
+      },
+      {
+        "nombre": "Copa citrica tradicional",
+        "descripcion": "Una bola de helado, fresas, cerezas, pipña, mango, torta de maracuya, topins y salsas (maracuyá, lulo y mora)",
+        "precio": "$15.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Copa citrica especial",
+        "descripcion": "Una bola de helado, fresas, cerezas, papaya, pipña, kiwi, manzanas, uvas mango, torta de mora, topins y salsas (fresa, lulo y mora)",
+        "precio": "$15.000",
+        "imagen": ""
+      }
+    ],
+    "carta_salada": [
+      {
+        "nombre": "Hamburguesa tradicional",
+        "descripcion": "Pan especial, 180gm de carne de hamburguesa especial, tomate, lechuga, cebolla caramelizada, tocineta, queso ceddar y deliciosa salsa de la casa",
+        "precio": "$23.000",
+        "imagen": "hambueguesa-tradicional.jpg"
+      },
+      {
+        "nombre": "Doble carne",
+        "descripcion": "Dos porciones de carne especial 180gm cada una, tomate, cabolla caramelizada, lechuga, tocineta, queso cheddar, salsa de la casa",
+        "precio": "$30.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Hamburguesa en combo",
+        "descripcion": "Una hamburguesa tradicional, 150gm de papas a la francesa y gaseosa 250ml (Coca-Cola o Quatro)",
+        "precio": "$30.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Burguer con pepinillos y cebolla morada",
+        "descripcion": "Esta hamburguesa combina la jugosidad de la carne con el sabor intenso de la cebolla, ajo y salsa inglesa, realizada con queso cheddar derretido, lechuga fresca y crujientes pepinillos",
+        "precio": "$25.000",
+        "imagen": "burger-pepinillos.jpeg"
+      },
+      {
+        "nombre": "Patacrunch Burguer",
+        "descripcion": "Hamburguesa con base de patacona 150gm de carne especial, cebolla caremelizada, lechuga, tomate, queso cheddar, tocineta",
+        "precio": "$23.000",
+        "imagen": "patacrunch.jpeg"
+      },
+      {
+        "nombre": "Patacrunch Burguer doble carne",
+        "descripcion": "Carne de hamburguesa deoble porcion de 180gr, lechuga, tomate, cebolla caramelizada, tocineta y queso cheddar",
+        "precio": "$30.000",
+        "imagen": " "
+      },
+      {
+        "nombre": "Salchipapa sencilla",
+        "descripcion": "salchicha tradicional, papa amarilla, lechuga, maicitos, queso mozarella, salsa de la casa",
+        "precio": "$15.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Salchi ranchera",
+        "descripcion": "papa amarilla, ranchera, maicitos, lechuga, queso mozarella, salsa de la casa",
+        "precio": "$18.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Salchi love junior",
+        "descripcion": "salchicha llanera, pollo a la plancha, monedas de platano, papa a la francesa, lechuga",
+        "precio": "$20.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Salchilove",
+        "descripcion": "bandeja acompañade de moneditas de platano verde, 150gm de papa a la francesa, 180gm de carne mechada, pollo a la plancha, costilla ahumada, salchicha llanera y salsa de la casa (Presentacion para 3 personas)",
+        "precio": "$55.000",
+        "imagen": "salchilove.jpeg"
+      },
+      {
+        "nombre": "Salchi todo",
+        "descripcion": "Papa amarilla, carne desmechda, pollo, costilla, ranchera, lechuga, maicitos, quezo mozarella y salsa de la casa",
+        "precio": "$30.000",
+        "imagen": "salchi-todo.jpeg"
+      },
+      {
+        "nombre": "Canasta mar y tierra",
+        "descripcion": "tres canastas a base de platano, cada una lleva 18gm de pollo con queso, carne mechada, camarones al ajillo y tres palitos de yuca",
+        "precio": "$38.000",
+        "imagen": "mar-y-tierra.jpeg"
+      },
+      {
+        "nombre": "Baby Beef",
+        "descripcion": "250gm de lomo viche, papas a la francesa, ensalada, chimichurri y limon",
+        "precio": "$45.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Punta de anca",
+        "descripcion": "250gm de puntaa de anca, papas a la francesa, ensalada, chimichurri y limon",
+        "precio": "$45.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Lomo salteado",
+        "descripcion": "Base de platano, 150gm de lomo de caracho salteado en salsa de soja acompañado de cebolla morada, tomate y queso gratinado",
+        "precio": "$29.000",
+        "imagen": "lomo.jpeg"
+      },
+      {
+        "nombre": "Maduro Bechamel",
+        "descripcion": "base de maduro, 180gm de pollo a la plancha, salsa bechamel, queso mozarella y Champiñones (si lo decesea en base de patacon lo puede ordenar)",
+        "precio": "$30.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Pollo salteado",
+        "descripcion": "base de platano, 150gm de pollo, salsa de soja acompañado de cebolla morada y tomate",
+        "precio": "$20.000",
+        "imagen": ""
+      },
+      {
+        "nombre": "Pollo al crispy",
+        "descripcion": "300gm de pollo crispy, 180gm de papa a la francesa acompañado de nuestra salsa de la casa de queso especial de crema y ciboulette",
+        "precio": "$29.000",
+        "imagen": "pollo-crispy.jpeg"
+      }
+
+    ],
+    "cocteles": [
+      
+
+    ]
+  }
+
+  

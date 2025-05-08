@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Family | Heladería </title>
+    <link rel="icon" href="assets/images/logo-web.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+    
+    <!-- Barra de Navegación -->
+<nav class="navbar">
+    <!-- Logo (ahora es un enlace al inicio) -->
+    <a href="index.html" class="nav-logo">
+        <img src="assets/images/icono.jpg" alt="Sweet Cream Logo" class="logo-img">
+    </a>
+    
+    <!-- Menú -->
+    <ul class="nav-links">
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#reservas">Contacto</a></li>
+    </ul>
+    
+    <!-- Botón -->
+    <a href="#reservas" class="nav-btn">Reservar</a>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Bienvenidos a <span>Love Family</span></h2>
+            <p class="hero-subtitle">Entre tostadas y dulces</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="hero-btn primary">Ver Menú</a>
+                <a href="#reservas" class="hero-btn secondary">Reservar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Menú -->
+    <section class="menu" id="menu">
+        <div class="section-header">
+          <h2 class="section-title">Nuestra <span>Carta</span></h2>
+          <div class="section-divider"></div>
+        </div>
+      
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-tab="carta_dulce">Carta Dulce</button>
+          <button class="tab-btn" data-tab="carta_salada">Carta de Sal</button>
+
+        </div>
+      
+        <div id="carta_dulce" class="menu-container active"></div>
+        <div id="carta_salada" class="menu-container"></div>
+      </section>
+
+    <!-- Sección de Historia -->
+    <section id="historia" class="history-section">
+        <div class="section-header">
+            <h2 class="section-title">Nuestra <span>Historia</span></h2>
+            <div class="section-divider"></div>
+        </div>
+    
+        <div class="history-container">
+            <!-- Imagen responsiva -->
+            <div class="history-image">
+                <img src="assets/images/imagen-historia.jpeg" alt="Fundadores de Sweet Cream" loading="lazy">
+            </div>
+    
+            <!-- Texto -->
+            <div class="history-content">
+                <p>breve historia</p>
+                <ul class="history-list">
+                    <li><i class="fas fa-check"></i> Salsa artesanales</li>
+                    <li><i class="fas fa-check"></i> Sabores únicos</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+   <!-- Sección Contacto/Reservas Responsivo -->
+   <section id="reservas" class="contact-section">
+    <div class="section-header">
+        <h2 class="section-title">Reservas & <span>Contacto</span></h2>
+        <div class="section-divider"></div>
+    </div>
+    
+    <div class="contact-container">
+        <!-- Columna 1: Info de contacto -->
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>CL. 61A #1A-07, Conuna 5, Cali, Valle del cauca</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <p>+57 315 3474496</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <p>lovefamily.dyt@gmail.com</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        
+        <!-- Columna 2: Formulario -->
+        <div class="contact-form">
+            <h3>Haz tu reserva</h3>
+            <form id="reservaForm">
+                <div class="form-group">
+                    <input type="text" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="personas" placeholder="Número de personas" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" id="fecha" required>
+                </div>
+                <div class="form-group">
+                    <input type="time" id="hora" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensaje" placeholder="Detalles adicionales"></textarea>
+                </div>
+                <button type="submit" class="form-btn">
+                    <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+                </button>
+            </form>
+        </div>
+
+    <!-- Footer -->
+    <footer class="vintage-footer">
+        <div class="footer-wave"></div>
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Columna 1: Logo -->
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span>🍦</span>
+                        <h3>Love Family</h3>
+                        <p>Deliciosos helados y Comidas rapidas</p>
+                    </div>
+                </div>
+    
+                <!-- Columna 2: Enlaces -->
+                <div class="footer-links">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#menu">Menú</a></li>
+                        <li><a href="#historia">Historia</a></li>
+                        <li><a href="#reservas">Contacto</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Columna 3: Horario -->
+                <div class="footer-hours">
+                    <h4>Horario</h4>
+                    <ul>
+                        <li>Lunes-Viernes: 9am - 10pm</li>
+                        <li>Sábado: 10am - 11pm</li>
+                        <li>Domingo: 11am - 9pm</li>
+                    </ul>
+                </div>
+    
+                <!-- Columna 4: Redes Sociales -->
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/lovefamliycali?igsh=MjI2cTFhYzM2bDdy" class="social-icon" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.tiktok.com/@lovefamily_dyt?_t=ZS-8w9m5F9aYNe&_r=1" class="social-icon" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                            <span>TikTok</span>
+                        </a>
+                        <a href="#" class="social-icon whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Grupo WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>&copy; 2023 Love Family. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
