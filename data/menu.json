@@ -76,13 +76,13 @@
         "nombre": "Copa citrica tradicional",
         "descripcion": "Una bola de helado, fresas, cerezas, pipña, mango, torta de maracuya, topins y salsas (maracuyá, lulo y mora)",
         "precio": "$15.000",
-        "imagen": ""
+        "imagen": "copa_citrica.jpg"
       },
       {
         "nombre": "Copa citrica especial",
         "descripcion": "Una bola de helado, fresas, cerezas, papaya, pipña, kiwi, manzanas, uvas mango, torta de mora, topins y salsas (fresa, lulo y mora)",
         "precio": "$15.000",
-        "imagen": "copa_citrica.jpg"
+        "imagen": ""
       }
     ],
     "carta_salada": [
